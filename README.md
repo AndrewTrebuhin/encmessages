@@ -9,14 +9,18 @@ Encrypt your message.
 git clone git@github.com:AndrewTrebuhin/encmessages.git
 cd encmessages
 ```
-2. Rename base.db.example to base.db in db folder
+2. Install all dependencies
+```
+bundle install
+```
+3. Rename base.db.example to base.db in db folder
 ```
 cd db
 mv base.db.example base.db
 ```
-3. Return to root folder and run the app
+4. Return to root folder and run the app
 ```
 cd ..
 rackup
 ```
-4.Visit http://localhost:9292 to see the app.
+5.Visit http://localhost:9292 to see the app.
