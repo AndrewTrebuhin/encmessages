@@ -1,3 +1,2 @@
-#Ignore local db
-/db
+db/base.db
 env.rb
